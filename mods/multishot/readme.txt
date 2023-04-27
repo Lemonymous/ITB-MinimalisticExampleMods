@@ -17,3 +17,8 @@ files:
 	multishotAndPreviewAndUpgrades.lua
 		- continuation of multishotAndPreview.lua
 		- adds upgrades, and changes the code so each shot is fired using the correct upgraded weapon
+
+- Weapons can be added via the in-game console with the following commands (case sensitive):
+	weapon mini_Multishot
+	weapon mini_MultishotAndPreview
+	weapon mini_MultishotAndPreviewAndUpgrades
