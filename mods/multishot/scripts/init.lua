@@ -12,6 +12,8 @@ local mod = {
 function mod:init()
 	require(self.scriptPath.."libs/multishot")
 	require(self.scriptPath.."multishot")
+	require(self.scriptPath.."multishotAndPreview")
+	require(self.scriptPath.."multishotAndPreviewAndUpgrades")
 end
 
 return mod
