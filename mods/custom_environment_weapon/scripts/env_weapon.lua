@@ -11,7 +11,7 @@ function LightningWeapon:GetTargetArea(point)
 
 	for _,p in ipairs(Board) do
 		if p ~= point then
-			ret:push_back(p)	
+			ret:push_back(p)
 		end
 	end
 
