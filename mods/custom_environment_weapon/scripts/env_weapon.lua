@@ -35,7 +35,7 @@ function LightningWeapon:GetSkillEffect(p1, p2)
 			mission.CustomEnv[env_id] = env 
 		end 
 
-		env.Locations[#env.Locations + 1] = target 
+		table.insert(env.Locations, target) 
 	]], p2:GetString(), self.Environment))
 
 	return ret
