@@ -4,7 +4,7 @@ local mod =  {
 	name = "Custom Environment Weapon",
 	version = "0.1.0",
 	description = "A minimalistic example of a weapon placing custom environment effects",
-	dependencies = {}
+	dependencies = {},
 	load = function() end,
 }
 
