@@ -2,6 +2,8 @@
 LightningWeapon = Skill:new{
 	Name = "EnvLightning Placer",
 	Description = "Placed a lightning environment on a tile",
+	-- You can also try changing this to another environment that
+	-- uses 'Locations' to define marked locations, like "Env_Seismic"
 	Environment = "Env_Lightning",
 }
 
