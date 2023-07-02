@@ -9,7 +9,7 @@ local mod =  {
 }
 
 function mod:init(options)
-	require(self.scriptPath.."libs/CustomEnv")
+	-- require(self.scriptPath.."libs/CustomEnv")
 	require(self.scriptPath.."env_weapon")
 end
 
